@@ -1,0 +1,10 @@
+# Avoid committing subject recordings / outputs / local environments.
+lfads_data/
+*.h5
+*.npy
+*.npz
+*_pca.png
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/

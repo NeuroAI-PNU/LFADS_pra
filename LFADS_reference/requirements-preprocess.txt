@@ -1,0 +1,5 @@
+numpy
+h5py
+one-api
+ibllib
+matplotlib

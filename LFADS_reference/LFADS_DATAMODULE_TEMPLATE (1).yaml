@@ -1,0 +1,6 @@
+# Reference template only: copy into the cloned lfads-torch configs/datamodule folder.
+# Replace with the absolute path to your actual .h5 file.
+# The complete model/training configuration must also be adapted and verified.
+_target_: lfads_torch.datamodules.BasicDataModule
+datafile_pattern: /home/changhyun/LFADS_pra/lfads_data/m1_0ffa052a-fe3f-46c2-999d-43bd56b7826e.h5
+batch_size: 32
