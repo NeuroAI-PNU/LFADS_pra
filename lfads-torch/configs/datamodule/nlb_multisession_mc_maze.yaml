@@ -1,0 +1,3 @@
+_target_: lfads_torch.datamodules.BasicDataModule
+datafile_pattern: ${relpath:datasets/mc_maze_*-05ms-val.h5}
+batch_size: 192

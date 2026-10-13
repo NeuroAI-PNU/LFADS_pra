@@ -1,0 +1,7 @@
+_target_: lfads_torch.datamodules.BasicDataModule
+
+datafile_pattern: /home/changhyun/LFADS_pra/lfads_data/m1_0ffa052a-fe3f-46c2-999d-43bd56b7826e.h5
+
+batch_size: 32
+#batch size; 전체 trial을 한꺼번에 돌리기 힘드니까 group으로 끊어서 학습을 시키는데 이때 group size를 batch size로 설정함. (32로 설정하면 32개의 trial을 한꺼번에 학습시킴)
+

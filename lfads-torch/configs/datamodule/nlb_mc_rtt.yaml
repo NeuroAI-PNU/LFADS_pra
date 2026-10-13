@@ -1,0 +1,8 @@
+_target_: lfads_torch.datamodules.BasicDataModule
+datafile_pattern: ${relpath:datasets/mc_rtt-05ms-val.h5}
+batch_keys:
+  - behavior
+attr_keys:
+  - train_decode_mask
+  - valid_decode_mask
+batch_size: 256
