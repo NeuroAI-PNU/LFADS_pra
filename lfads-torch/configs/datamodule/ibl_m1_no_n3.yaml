@@ -1,0 +1,3 @@
+_target_: lfads_torch.datamodules.BasicDataModule
+datafile_pattern: /home/changhyun/LFADS_pra/lfads_data/m1_no_n3_0ffa052a-fe3f-46c2-999d-43bd56b7826e.h5
+batch_size: 32
