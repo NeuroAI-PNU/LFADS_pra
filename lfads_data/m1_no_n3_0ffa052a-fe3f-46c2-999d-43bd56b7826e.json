@@ -1,0 +1,27 @@
+{
+  "original_h5": "/home/changhyun/LFADS_pra/lfads_data/m1_0ffa052a-fe3f-46c2-999d-43bd56b7826e.h5",
+  "ablated_h5": "/home/changhyun/LFADS_pra/lfads_data/m1_no_n3_0ffa052a-fe3f-46c2-999d-43bd56b7826e.h5",
+  "removed_neuron": "N3",
+  "removed_cluster_id": 498,
+  "original_cluster_ids": [
+    487,
+    493,
+    498,
+    500,
+    503
+  ],
+  "remaining_cluster_ids": [
+    487,
+    493,
+    500,
+    503
+  ],
+  "model_config": "/home/changhyun/LFADS_pra/lfads-torch/configs/model/ibl_m1_no_n3.yaml",
+  "datamodule_config": "/home/changhyun/LFADS_pra/lfads-torch/configs/datamodule/ibl_m1_no_n3.yaml",
+  "kept_channel_indices_0_based": [
+    0,
+    1,
+    3,
+    4
+  ]
+}
